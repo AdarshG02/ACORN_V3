@@ -40,7 +40,7 @@ Simple encryption algorithm in Python
 
 - The algorithm is not test with a official test vector. Instead, tested with a Chatgpt generated test vector (passed): 
 		key = '000102030405060708090a0b'
-		iv = '0c0d0e0f1011121314151617'
+		IV = '0c0d0e0f1011121314151617'
 		plaintext = '0011223344556677'
 		expected_ciphertext_hex = 'a9fa6ece7bdef4dd'
 
