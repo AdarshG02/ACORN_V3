@@ -39,8 +39,8 @@ Simple encryption algorithm in Python
 - If the output matches, "Test Passed" is printed else "Test Failed" is printed.
 
 - The algorithm is not test with a official test vector. Instead, tested with a Chatgpt generated test vector (passed): 
-		key = '000102030405060708090a0b'
-		IV = '0c0d0e0f1011121314151617'
-		plaintext = '0011223344556677'
+		key = '000102030405060708090a0b',
+		IV = '0c0d0e0f1011121314151617',
+		plaintext = '0011223344556677',
 		expected_ciphertext_hex = 'a9fa6ece7bdef4dd'
 
